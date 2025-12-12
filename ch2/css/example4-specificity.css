@@ -1,0 +1,19 @@
+#cfText {
+    color: green;
+}
+/*ID# must be unique and takes priority over class */
+
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.cf-text {
+    color: brown!important;
+}
+/* Class takes priority over type */
+/* !important takes priority over everything
+/* In-line style takes priority over ID and Class */
