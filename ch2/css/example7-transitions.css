@@ -21,3 +21,28 @@
 .box2:hover {
     width: 500px
 }
+
+.box3 {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: transform 3s;
+    
+}
+
+.box3:hover {
+    transform: rotate(20deg);
+}
+
+.box4 {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: transform 4s;
+}
+
+.box4:hover {
+    transform: rotate(90deg) scale(2) translateY(-100%) translateX(40%);
+}
