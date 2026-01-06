@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+   
+    <h1>Αίτηση συμμετοχής</h1>
+
+    <h2>Προσωπικά στοιχεία</h2>
+
+    <div>             
+                    <label for="fldfirstname">Όνομα:</label>
+                    <input type="text" name="firstname" id="fldfirstname" minlength="5" maxlength="20" required>
+                
+                    <label for="fldlastname">Επώνυμο:</label>
+                    <input type="text" name="lastname" id="fldlastname" minlength="5" maxlength="20" required>
+                    <label for="fldfathername">Πατρώνυμο:</label>
+                    <input type="text" name="fathername" id="fldfathername" minlength="5" maxlength="15">        
+    </div>
+
+    <h2>Στοιχεία κατοικίας</h2>
+    
+    <div>
+                    <label for="fldhomeaddress">Διεύθυνση κατοικίας:</label>
+                    <input type="text" name="homeaddress" id="fldhomeaddress" minlength="10" maxlength="20" required>
+                
+                    <label for="fldhomeaddressnumber">Αριθμός:</label>
+                    <input type="number" name="homeaddressnumber" id="fldhomeaddressnumber" minlength="5" maxlength="20" required>
+                    <label for="fldzipcode">ΤΚ:</label>
+                    <input type="number" name="zipcode" id="fldzipcode" minlength="5" maxlength="20" required>  
+    </div>
+
+    <h2>Στοιχεία επικοινωνίας</h2>
+
+    <label for="fldphonenumbertype">Τηλέφωνο</label> 
+    <input type="text" name="phonenumbertype" id="fldphonenumbertype" minlength="10" maxlength="20" required>
+
+    <label for="fldphonenumber">Αριθμός:</label>
+                    <input type="number" name="phonenumber" id="fldphonenumber" minlength="5" maxlength="20" required>
+                    
+</body>
+</html>
