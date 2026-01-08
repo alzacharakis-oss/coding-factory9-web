@@ -1,0 +1,16 @@
+.fullname {
+    margin-top: 50px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.title {
+    color: gray;
+    margin-top: 5px;
+}
+
+.contactinformation {
+    border: 5px solid purple;
+    display: inline-block;
+    padding-right: 70px;
+}
