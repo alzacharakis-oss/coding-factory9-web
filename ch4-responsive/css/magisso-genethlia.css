@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.logo img {
+    height: 130px;
+    width: auto;
+}
+
+.magazaki-image {
+    overflow: hidden;
+    height: calc(97vh - 100px);
+    background-image: url("/img/maybethisone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 60%;
+}
+
+.magazaki-text {
+    width: 55%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+a {
+    color: #dd200b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 2rem 1.5rem;
+    font-weight: 600;
+    background-color: violet;
+}
+
+.love {
+    position: relative;
+}
+
+.love .hover-text {
+    display: none;
+}
+
+.love:hover .default-text {
+    display: none;
+}
+
+.love:hover .hover-text {
+    display: inline;
+}
